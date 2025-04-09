@@ -1,1 +1,32 @@
 /* your code */
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.score-table thead {
+  background-color: #24588f;
+  color: white;
+  text-align: left;
+}
+
+.score-table th,
+.score-table td {
+  padding: 1rem;
+}
+
+.score-table tbody tr:nth-child(even) {
+  background-color: #e0e0e0; /* light gray alternate rows */
+}
+
+.score-table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.score-table td {
+  color: #333;
+  font-weight: 500;
+}
